@@ -1,0 +1,76 @@
+.text_style {
+    text-align: center;
+    color: teal;
+    font-size: 30px;
+}
+
+.Calculator {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+#displayScreen {
+    height: 150px;
+    width: 96%;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.calculator-Buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+}
+
+button {
+    width: 50px;
+    height: 50px;
+}
+
+button:hover{
+    background-color: #54c4c1; 
+    transition: 0.4s; 
+}
+
+button:active{
+    background-color: black;
+}
+
+.clear {
+    font-size: 20px;
+    color: red;
+    font: bold;
+    background-color: teal;
+}
+
+.operator {
+    font-size: 20px;
+    font: bold;
+    color: white;
+    background-color: teal;
+}
+
+.backspace {
+    font-size: 20px;
+    color: white;
+    background-color: teal;
+}
+
+.equals_to {
+    font-size: 38px;
+    color: white;
+    font: bold;
+    background-color: turquoise;
+}
+
+.inputs{
+    font-size: 20px;
+    color: white;
+    font: bold;
+    background-color: black;
+}
+
